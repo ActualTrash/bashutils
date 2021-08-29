@@ -4,7 +4,7 @@ Bashutils is a bash "library" that makes writing bash scripts fun again.
 
 
 ## Features
-
-- 💻 Command line arg parser
-- 🪵 Loggers
+- [x] 🎨 Colors
+- [x] 🪵 Loggers
+- [ ] 💻 Command line arg parser
 
