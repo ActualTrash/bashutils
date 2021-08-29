@@ -1,3 +1,4 @@
+# Created by Chase Hildebrand | https://github.com/ActualTrash/bashutils
 # Make sure that we only load this script once
 [ "$BASHUTILS_LOADED" = true ] && return || export BASHUTILS_LOADED=true
 # -------------------------------------------------------------------
