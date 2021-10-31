@@ -51,3 +51,11 @@ spinner() {
 }
 export -f spinner
 # -------------------------------------------------------------------
+# Prompts
+# $1 - Prompt to give the user
+# Default is yes
+yesno() {
+    read -p "$(echo -e "[${PINK}?${NC}]") $1 [Y/n]: " #-n 1 -r
+    [[ -z ${REPLY-x} ]] && return 0 # Default to yes
+    [[ $REPLY =~ ^[Yy]$ ]] && return 0 || return 1
+}
